@@ -24,7 +24,7 @@ import * as scripts from './plutus'
 // }
 
 
-const adaoPoolInfo1: StakingPoolInfo = {
+const poloPool: StakingPoolInfo = {
     userInfo: {
         rewardType: '$tPOLO',
     },
