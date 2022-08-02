@@ -26,6 +26,30 @@ import * as scripts from './plutus'
 
 const adaoPoolInfo1: StakingPoolInfo = {
     userInfo: {
+        rewardType: '$tPOLO',
+    },
+    poolInfo: {
+        name: "TANG/ADA LP for $tPOLO",
+        poolIndex: 0,
+        imageSrc: "/ratsdao.png",
+        stakingUnit: "e4214b7cce62ac6fbba385d164df48e157eae5863521b4b67ca71d862c4ec7c4240af09476da67f2d8dadd2e266279b6e18b0ac325f8b5866bbdbc94",
+        harvestUnit: "d5dec6074942b36b50975294fd801f7f28c907476b1ecc1b57c916ed524154",
+        distAddress: "addr1q8g59w6mtcnperwy5yq7fg3g547f9vjq8709wj3xk0w28573g2a4kh3xrjxufggpuj3z3ftuj2eyq0u72a9zdv7u50fssflav4",
+        script: scripts.poloPool,
+	oldScript: scripts.poloPool,
+        type: "FT",
+        stakingPolicy: undefined,
+        maxSize: 10000000,
+        rewardPerEpochQt: 75000000000,
+        reward: "$tPOLO/epoch",
+        closesAt: new Date(new Date().getDay() + 365),
+        openFrom: new Date()
+    }
+}
+
+
+const adaoPoolInfo1: StakingPoolInfo = {
+    userInfo: {
         rewardType: '$RAT',
     },
     poolInfo: {
