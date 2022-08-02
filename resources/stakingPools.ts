@@ -13,7 +13,7 @@ const poloPool: StakingPoolInfo = {
         harvestUnit: "a5042af9f2fa55ee9cf5480b990041bd2531772738c4b47aab78b8e074504f4c4f",
         distAddress: "addr1q8r9a2m7w7kzegwmwy6ydug0p8lcfsw8evskql98esph4v6arftjkynex2y0dc7l68a03c0hgdn5z3lxqztk9dngf02qaur5gm",
         script: scripts.poloPool,
-	    oldScript: scripts.poloPool,
+	    oldScript: scripts.poloPool2,
         type: "FT",
         stakingPolicy: undefined,
         maxSize: 10000000,
