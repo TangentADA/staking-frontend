@@ -11,7 +11,7 @@ const poloPool: StakingPoolInfo = {
         imageSrc: "/tang.png",
         stakingUnit: "29d91858c31d926d79c56de2f1cb59372d0f9da911ae388e3fd1ccc04c50",
         harvestUnit: "a5042af9f2fa55ee9cf5480b990041bd2531772738c4b47aab78b8e074504f4c4f",
-        distAddress: "addr1q8r9a2m7w7kzegwmwy6ydug0p8lcfsw8evskql98esph4v6arftjkynex2y0dc7l68a03c0hgdn5z3lxqztk9dngf02qaur5gm",
+        distAddress: "addr1qxw9nz43pplzhf6e2pf72lreldn7p4p6vr9y7m85uaahj4qzp7w0era4y6vtvhts8cjs3060gkeznfnzeg6p8pgptnnsz5tyf7",
         script: scripts.poloPool,
 	    oldScript: scripts.poloPool2,
         type: "FT",
