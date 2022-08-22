@@ -99,7 +99,7 @@ function subAssetsFromUtxos(utxos: UTxO[], value: Assets) : Assets {
 
 const getAllUtxos = async (walletName: string, contractAddress: string, contractAddress2: string = "") => {
     const Lucid = await initializeLucid(walletName ? await window.cardano[walletName].enable() : undefined)
-    let old = []
+    let old: any = []
     if (contractAddress2 != "") {
         old = await Lucid.utxosAt(contractAddress2)
     }

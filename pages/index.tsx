@@ -5,7 +5,7 @@ import stakingpools from '../resources/stakingPools'
 import { StakingPoolInfo } from '../types'
 
 const Home: NextPage = () => {
-  const StakingPool = dynamic(() => import('../components/StakingPool'), { ssr: false })
+  const StakingPool: any = dynamic(() => import('../components/StakingPool'), { ssr: false })
   return (
     <Layout>
       <div className="hero flex flex-col bg-accent-dark bg-cover bg-hero min-h-screen">

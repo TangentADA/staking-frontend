@@ -1,9 +1,10 @@
 import dynamic from 'next/dynamic';
 import Link from 'next/link';
+import { ReactNode } from 'react';
 // import WalletModalBtn from './WalletModalBtn';
 
 export default function Navbar() {
-    const WalletModalBtn = dynamic(() => import('./WalletModalBtn'), { ssr: false })
+    const WalletModalBtn: any = dynamic(() => import('./WalletModalBtn'), { ssr: false })
 
     return (
         <div className="navbar bg-accent-dark bg-cover bg-base-200">
