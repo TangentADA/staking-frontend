@@ -1,3 +1,3 @@
-const API_URL = "http://127.0.0.1:3001"
+const API_URL = "https://tangent-staking.herokuapp.com"
 
 export { API_URL }
